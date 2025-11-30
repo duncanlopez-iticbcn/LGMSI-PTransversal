@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formulario de requisitos</title>
+  <link rel="stylesheet" href="./css/style2.css">
+</head>
+<body>
+<h1>Ya casi lo tienes, solo necesitamos que rellenes algunos datos</h1>
+<h2>Tomará menos de dos minutos...</h2>
+<div id="form-container">
+  <form id="gameForm" action="confirmacion.html" method="post">
+<br><br>
+    <label for="shortText">Nombre completo (obligatorio):</label>
+    <input type="text" id="shortText" name="shortText" required />
+<br><br>
+    <label for="emailInput">Correo electrónico (obligatorio):</label>
+    <input type="email" id="emailInput" name="emailInput" required />
+<br><br>
+    <label for="numberInput">Edad (obligatorio):</label>
+    <input type="number" id="numberInput" name="numberInput" required />
+<br><br>
+    <label for="dropdownSelect">¿Cuál es tu color favorito? (obligatorio):</label>
+    <select id="dropdownSelect" name="dropdownSelect" required>
+      <option value="" disabled selected>Selecciona una opción</option>
+      <option value="azul">Azul</option>
+      <option value="verde">Verde</option>
+      <option value="manzana">Manzana</option>
+    </select>
+<br><br>
+    <fieldset>
+      <legend>¿Qué hobbies tienes? (selecciona al menos uno) (obligatorio):</legend>
+      <label><input type="checkbox" name="checkboxes" value="lectura" checked required> Lectura</label>
+      <label><input type="checkbox" name="checkboxes" value="deporte"> Deporte</label>
+      <label><input type="checkbox" name="checkboxes" value="videojuegos"> Videojuegos</label>
+    </fieldset>
+<br><br>
+    <fieldset>
+      <legend>¿Cuál es tu comida preferida? (elige una opción) (obligatorio):</legend>
+      <label><input type="radio" name="radiogroup" value="pizza" checked required> Pizza</label>
+      <label><input type="radio" name="radiogroup" value="paella"> Paella</label>
+      <label><input type="radio" name="radiogroup" value="hamburguesa"> Hamburguesa</label>
+    </fieldset>
+
+    <label for="longText">Descríbete en pocas palabras (obligatorio):</label>
+    <textarea id="longText" name="longText" placeholder="Escribe aquí tu información..." required></textarea>
+
+    <br><br>
+
+    <button type="submit">Enviar</button>
+  </form>
+</div>
+
+</body>
+</html>
