@@ -1,0 +1,93 @@
+body {
+  background-color: #e2e3e7;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #212121;
+}
+
+.container {
+  display: flex;
+  gap: 40px;
+  max-width: 1200px;
+  width: 100%;
+  justify-content: center;
+  margin: 40px auto; 
+}
+
+header {
+  background-color: #2e2152;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 16px;
+  color: #444;
+  font-size: 0.9rem;
+}
+
+.curriculum {
+  background: #fff;
+  padding: 24px 32px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  flex: 1;
+  overflow-x: auto;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #2e2152;
+  margin-bottom: 16px;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+table {
+  margin: 0 auto 40px;
+  border-collapse: collapse;
+  width: 100%;
+  box-shadow: 0 2px 8px #bbb;
+  background-color: #e5e6f2;
+}
+
+caption {
+  caption-side: top;
+  font-weight: bold;
+  font-size: 1.3em;
+  margin-bottom: 8px;
+  color: #36177b;
+  letter-spacing: 2px;
+}
+
+th, td {
+  border: 1px solid #6a6a7c;
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+  color: #1b1b21;
+}
+
+th {
+  background-color: #48328a;
+  color: #fff;
+}
+
+tr:hover {
+  background: #d2def6;
+}
